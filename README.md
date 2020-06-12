@@ -16,7 +16,7 @@
     }
 
 
-2.在````app Module````下的 `build.gradle`加入以下代码 最新版本[ ![Download](https://api.bintray.com/packages/lishang007/maven/LSSingleClick/images/download.svg?version=1.0.0) ](https://bintray.com/lishang007/maven/LSSingleClick/1.0.0/link)
+2.在````app Module````下的 `build.gradle`加入以下代码 最新版本[ ![Download](https://api.bintray.com/packages/lishang007/maven/LSSingleClick/images/download.svg) ](https://bintray.com/lishang007/maven/LSSingleClick/_latestVersion)
 
 
         apply plugin: 'android-aspectjx'
