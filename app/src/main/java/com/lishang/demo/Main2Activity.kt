@@ -30,7 +30,7 @@ class Main2Activity : AppCompatActivity(), View.OnClickListener {
                 }
         )
 
-        btn3.setOnUnSingleClick {
+        btn3.setOnSingleClick {
             log("click btn3")
         }
 
@@ -45,6 +45,7 @@ class Main2Activity : AppCompatActivity(), View.OnClickListener {
         Log.e("MainActivity2", msg)
     }
 
+    @SingleClick
     override fun onClick(v: View?) {
         log("click btn1")
     }

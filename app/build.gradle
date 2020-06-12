@@ -44,7 +44,9 @@ dependencies {
     implementation 'com.jakewharton:butterknife:10.2.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.0'
 
-    implementation project(':aop')
+    implementation 'com.lishang.aop.click:LSSingleClick:1.0.0'
+
+//    implementation project(':aop')
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
 
 

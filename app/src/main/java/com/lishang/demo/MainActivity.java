@@ -53,12 +53,13 @@ public class MainActivity extends AppCompatActivity {
             @SingleClick(value = 2000)
             @Override
             public void onClick(View v) {
-                log("            @SingleClick(value = 2000)");
+                log("@SingleClick(value = 2000)");
 
             }
         });
 
         btn3.setOnClickListener(new View.OnClickListener() {
+            @SingleClick
             @Override
             public void onClick(View v) {
                 log("  onClick");
